@@ -1,0 +1,85 @@
+.loading-screen{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    background: var(--bg-value);
+    backdrop-filter: blur(50px);
+    z-index: 100;
+}
+@keyframes loaded {
+    from{
+        backdrop-filter: blur(50px);
+        opacity: 1;
+    }
+    to{
+        backdrop-filter: blur(0px);
+        opacity: 0;
+    }
+}
+.loading-screen.exiting{
+    animation: loaded 0.5s forwards;
+}
+.loading-screen.exited{
+    display: none;
+}
+.loading-screen-header{
+    position: fixed;
+    top: 45%;
+
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+@keyframes animationHeader1 {
+    0%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    25%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    50%{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    75%{
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes animationHeader2 {
+    0%{
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    25%{
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    50%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    75%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    to{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+}
+.loading-screen-header#loading-screen-header-1{
+    animation: animationHeader1 5s infinite;
+}
+.loading-screen-header#loading-screen-header-2{
+    animation: animationHeader2 5s infinite;
+}

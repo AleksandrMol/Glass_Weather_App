@@ -1,0 +1,26 @@
+.temp-weather-block{
+    display: flex;
+    align-items: center;
+}
+.temp-value{
+    font-size: 64px;
+}
+.weather-icon{
+    width: 150px;
+    height: 150px;
+}
+
+@media (max-width: 950px) {
+    .temp-value{
+        font-size: 48px;
+    }
+}
+@media (max-width: 425px) {
+    .temp-weather-block{
+        margin-bottom: 30px;
+    }
+    .weather-icon{
+        width: 100px;
+        height: 100px;
+    }
+}

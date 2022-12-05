@@ -1,0 +1,352 @@
+
+/* clear */
+.weather-800{
+    background-image: url(../../img/clear-bg.jpg);
+}
+/* clouds */
+.weather-801{
+    background-image: url(../../img/clouds.jpg);
+}
+.weather-802{
+    background-image: url(../../img/clouds.jpg);
+}
+/* overcast */
+.weather-803{
+    background-image: url(../../img/overcast.jpg);
+}
+.weather-804{
+    background-image: url(../../img/overcast.jpg);
+}
+/* fog */
+.weather-701{
+    background-image: url(../../img/fog.jpg);
+}
+.weather-711{
+    background-image: url(../../img/fog.jpg);
+}
+.weather-721{
+    background-image: url(../../img/fog.jpg);
+}
+.weather-731{
+    background-image: url(../../img/fog.jpg);
+}
+.weather-741{
+    background-image: url(../../img/fog.jpg);
+}
+.weather-751{
+    background-image: url(../../img/fog.jpg);
+}
+.weather-761{
+    background-image: url(../../img/fog.jpg);
+}
+.weather-762{
+    background-image: url(../../img/fog.jpg);
+}
+.weather-771{
+    background-image: url(../../img/fog.jpg);
+}
+.weather-781{
+    background-image: url(../../img/fog.jpg);
+}
+/* snow */
+.weather-600{
+    background-image: url(../../img/snow.jpg);
+}
+.weather-601{
+    background-image: url(../../img/snow.jpg);
+}
+.weather-602{
+    background-image: url(../../img/snow.jpg);
+}
+.weather-611{
+    background-image: url(../../img/snow.jpg);
+}
+.weather-612{
+    background-image: url(../../img/snow.jpg);
+}
+.weather-613{
+    background-image: url(../../img/snow.jpg);
+}
+.weather-615{
+    background-image: url(../../img/snow.jpg);
+}
+.weather-616{
+    background-image: url(../../img/snow.jpg);
+}
+.weather-620{
+    background-image: url(../../img/snow.jpg);
+}
+.weather-621{
+    background-image: url(../../img/snow.jpg);
+}
+.weather-622{
+    background-image: url(../../img/snow.jpg);
+}
+/* rain */
+.weather-500{
+    background-image: url(../../img/rainy.jpg);
+}
+.weather-501{
+    background-image: url(../../img/rainy.jpg);
+}
+.weather-502{
+    background-image: url(../../img/rainy.jpg);
+}
+.weather-503{
+    background-image: url(../../img/rainy.jpg);
+}
+.weather-504{
+    background-image: url(../../img/rainy.jpg);
+}
+.weather-511{
+    background-image: url(../../img/rainy.jpg);
+}
+.weather-520{
+    background-image: url(../../img/rainy.jpg);
+}
+.weather-521{
+    background-image: url(../../img/rainy.jpg);
+}
+.weather-531{
+    background-image: url(../../img/rainy.jpg);
+}
+/* drizzle */
+.weather-300{
+    background-image: url(../../img/rainy.jpg);
+}
+.weather-301{
+    background-image: url(../../img/rainy.jpg);
+}
+.weather-302{
+    background-image: url(../../img/rainy.jpg);
+}
+.weather-310{
+    background-image: url(../../img/rainy.jpg);
+}
+.weather-311{
+    background-image: url(../../img/rainy.jpg);
+}
+.weather-312{
+    background-image: url(../../img/rainy.jpg);
+}
+.weather-313{
+    background-image: url(../../img/rainy.jpg);
+}
+.weather-314{
+    background-image: url(../../img/rainy.jpg);
+}
+.weather-321{
+    background-image: url(../../img/rainy.jpg);
+}
+/* thanderstorm */
+.weather-200{
+    background-image: url(../../img/thunderstorm.jpg);
+}
+.weather-201{
+    background-image: url(../../img/thunderstorm.jpg);
+}
+.weather-202{
+    background-image: url(../../img/thunderstorm.jpg);
+}
+.weather-210{
+    background-image: url(../../img/thunderstorm.jpg);
+}
+.weather-211{
+    background-image: url(../../img/thunderstorm.jpg);
+}
+.weather-212{
+    background-image: url(../../img/thunderstorm.jpg);
+}
+.weather-221{
+    background-image: url(../../img/thunderstorm.jpg);
+}
+.weather-230{
+    background-image: url(../../img/thunderstorm.jpg);
+}
+.weather-231{
+    background-image: url(../../img/thunderstorm.jpg);
+}
+.weather-232{
+    background-image: url(../../img/thunderstorm.jpg);
+}
+
+.weather-404{
+    background-image: url(../../img/error-404.png);
+    background-size: auto;
+    background-repeat: repeat;
+    background-position: 100% 0;
+    background-color: #000;
+}
+
+@media (max-width: 768px) {
+    /* clear */
+    .weather-800{
+        background-image: url(../../img/clear-bg2.jpg);
+    }
+    /* clouds */
+    .weather-801{
+        background-image: url(../../img/clouds2.jpg);
+    }
+    .weather-802{
+        background-image: url(../../img/clouds2.jpg);
+    }
+    /* overcast */
+    .weather-803{
+        background-image: url(../../img/overcast2.jpg);
+    }
+    .weather-804{
+        background-image: url(../../img/overcast2.jpg);
+    }
+    /* fog */
+    .weather-701{
+        background-image: url(../../img/fog2.jpg);
+    }
+    .weather-711{
+        background-image: url(../../img/fog2.jpg);
+    }
+    .weather-721{
+        background-image: url(../../img/fog2.jpg);
+    }
+    .weather-731{
+        background-image: url(../../img/fog2.jpg);
+    }
+    .weather-741{
+        background-image: url(../../img/fog2.jpg);
+    }
+    .weather-751{
+        background-image: url(../../img/fog2.jpg);
+    }
+    .weather-761{
+        background-image: url(../../img/fog2.jpg);
+    }
+    .weather-762{
+        background-image: url(../../img/fog2.jpg);
+    }
+    .weather-771{
+        background-image: url(../../img/fog2.jpg);
+    }
+    .weather-781{
+        background-image: url(../../img/fog2.jpg);
+    }
+    /* snow */
+    .weather-600{
+        background-image: url(../../img/snow2.jpg);
+    }
+    .weather-601{
+        background-image: url(../../img/snow2.jpg);
+    }
+    .weather-602{
+        background-image: url(../../img/snow2.jpg);
+    }
+    .weather-611{
+        background-image: url(../../img/snow2.jpg);
+    }
+    .weather-612{
+        background-image: url(../../img/snow2.jpg);
+    }
+    .weather-613{
+        background-image: url(../../img/snow2.jpg);
+    }
+    .weather-615{
+        background-image: url(../../img/snow2.jpg);
+    }
+    .weather-616{
+        background-image: url(../../img/snow2.jpg);
+    }
+    .weather-620{
+        background-image: url(../../img/snow2.jpg);
+    }
+    .weather-621{
+        background-image: url(../../img/snow2.jpg);
+    }
+    .weather-622{
+        background-image: url(../../img/snow2.jpg);
+    }
+    /* rain */
+    .weather-500{
+        background-image: url(../../img/rainy2.jpg);
+    }
+    .weather-501{
+        background-image: url(../../img/rainy2.jpg);
+    }
+    .weather-502{
+        background-image: url(../../img/rainy2.jpg);
+    }
+    .weather-503{
+        background-image: url(../../img/rainy2.jpg);
+    }
+    .weather-504{
+        background-image: url(../../img/rainy2.jpg);
+    }
+    .weather-511{
+        background-image: url(../../img/rainy2.jpg);
+    }
+    .weather-520{
+        background-image: url(../../img/rainy2.jpg);
+    }
+    .weather-521{
+        background-image: url(../../img/rainy2.jpg);
+    }
+    .weather-531{
+        background-image: url(../../img/rainy2.jpg);
+    }
+    /* drizzle */
+    .weather-300{
+        background-image: url(../../img/rainy2.jpg);
+    }
+    .weather-301{
+        background-image: url(../../img/rainy2.jpg);
+    }
+    .weather-302{
+        background-image: url(../../img/rainy2.jpg);
+    }
+    .weather-310{
+        background-image: url(../../img/rainy2.jpg);
+    }
+    .weather-311{
+        background-image: url(../../img/rainy2.jpg);
+    }
+    .weather-312{
+        background-image: url(../../img/rainy2.jpg);
+    }
+    .weather-313{
+        background-image: url(../../img/rainy2.jpg);
+    }
+    .weather-314{
+        background-image: url(../../img/rainy2.jpg);
+    }
+    .weather-321{
+        background-image: url(../../img/rainy2.jpg);
+    }
+    /* thanderstorm */
+    .weather-200{
+        background-image: url(../../img/thunderstorm2.jpg);
+    }
+    .weather-201{
+        background-image: url(../../img/thunderstorm2.jpg);
+    }
+    .weather-202{
+        background-image: url(../../img/thunderstorm2.jpg);
+    }
+    .weather-210{
+        background-image: url(../../img/thunderstorm2.jpg);
+    }
+    .weather-211{
+        background-image: url(../../img/thunderstorm2.jpg);
+    }
+    .weather-212{
+        background-image: url(../../img/thunderstorm2.jpg);
+    }
+    .weather-221{
+        background-image: url(../../img/thunderstorm2.jpg);
+    }
+    .weather-230{
+        background-image: url(../../img/thunderstorm2.jpg);
+    }
+    .weather-231{
+        background-image: url(../../img/thunderstorm2.jpg);
+    }
+    .weather-232{
+        background-image: url(../../img/thunderstorm2.jpg);
+    }
+}

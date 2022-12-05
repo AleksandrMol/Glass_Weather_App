@@ -1,0 +1,7 @@
+.weather-icon svg *{
+    width: auto;
+    height: auto;
+}
+.weather-icon svg{
+    margin-right: 10px;
+}

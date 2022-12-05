@@ -1,0 +1,97 @@
+.location-form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.location-input{
+    height: 70px;
+    padding: 16px;
+
+    color: var(--text-color);
+    font-size: 32px;
+
+    border: var(--input-border);
+    background-color: var(--input-bg);
+
+    transition: all 0.3s ease-in-out;
+}
+.location-input::placeholder{
+    color: var(--input-placeholder-color);
+}
+.location-input:hover{
+    border: var(--input-border-hover);
+}
+.location-input:focus{
+    outline: none;
+    border: var(--input-border-hover);
+}
+.location-label{
+    margin-bottom: 10px;
+
+    font-size: var(--small-text-size);
+}
+.location-form-icon{
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+
+    width: 32px;
+    height: 32px;
+
+    cursor: pointer;
+}
+.location-form-icon ellipse{
+    stroke: var(--input-placeholder-color);
+    transition: all 0.3s ease-in-out;
+    fill: transparent;
+}
+.location-form-icon line{
+    stroke: var(--input-placeholder-color);
+    transition: all 0.3s ease-in-out;
+}
+
+.location-form-icon:hover ellipse{
+    stroke: var(--text-color);
+}
+.location-form-icon:hover line{
+    stroke: var(--text-color);
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus{
+    -webkit-text-fill-color: var(--text-color);
+    -webkit-box-shadow: 0 0 0px 0px #000 inset;
+
+    font-size: 32px;
+
+    background: transparent;
+    transition: all 5000s ease-in-out 0s;
+}
+
+@media (max-width: 550px) {
+    .location-input{
+        height: 42px;
+        padding: 10px;
+
+        font-size: 14px;
+    }
+    .location-input::placeholder{
+        font-size: 14px;
+    }
+    .location-form-icon{
+        position: absolute;
+        bottom: 11px;
+        right: 14px;
+
+        width: 17px;
+        height: 19px;
+    
+        cursor: pointer;
+    }
+    input:-webkit-autofill,
+    input:-webkit-autofill:hover,
+    input:-webkit-autofill:focus{
+        font-size: 14px;
+    }
+}

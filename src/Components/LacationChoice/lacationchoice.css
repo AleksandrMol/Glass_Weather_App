@@ -1,0 +1,56 @@
+.location-section{
+    height: 100%;
+    width: 100%;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    overflow: hidden;
+}
+.location-dawn{
+    background-image: url(../../img/dawn1.jpg);
+}
+.location-day{
+    background-image: url(../../img/day1.jpg);
+}
+.location-sunset{
+    background-image: url(../../img/sunset.jpg);
+}
+.location-night{
+    background-image: url(../../img/night.jpg);
+}
+
+.location-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+
+    transition: all 1s cubic-bezier(.26,0,.02,1);
+    transform: translateX(-100%);
+}
+.location-container.entered{
+    transform: translateX(0);
+}
+
+.clock-block{
+    transition: all 1s cubic-bezier(.26,0,.02,1);
+}
+.clock-block.exited{
+    transform: translateY(500px);
+}
+
+@media (max-width: 768px) {
+    .location-dawn{
+        background-image: url(../../img/dawn2.jpg);
+    }
+    .location-day{
+        background-image: url(../../img/day2.jpg);
+    }
+    .location-sunset{
+        background-image: url(../../img/sunset2.jpg);
+    }
+    .location-night{
+        background-image: url(../../img/night2.jpg);
+    }
+}
